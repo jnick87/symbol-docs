@@ -213,7 +213,7 @@ This section describes the error messages that can be returned via status channe
     0x80430001; Failure_Core_Past_Deadline; Validation failed because the deadline passed.
     0x80430002; Failure_Core_Future_Deadline; Validation failed because the deadline is too far in the future.
     0x80430003; Failure_Core_Insufficient_Balance; Validation failed because the account has an insufficient balance.
-    0x80430004; Failure_Core_Too_Many_Transactions; Validation failed because there are too many transactions in a block.
+    0x80430004!=; Failure_Core_Too_Many_Transactions; Validation failed because there are too many transactions in a block.
     0x80430005; Failure_Core_Nemesis_Account_Signed_After_Nemesis_Block; Validation failed because an entity originated from the nemesis account after the nemesis block.
     0x80430006; Failure_Core_Wrong_Network; Validation failed because the entity has the wrong network specified.
     0x80430007; Failure_Core_Invalid_Address; Validation failed because an address is invalid.
